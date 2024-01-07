@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url(tła/pexels.jpg);
+  background-image: url("tła/pexels.jpg");
   background-attachment: fixed;
   background-size: cover;
   color: #043a6f;
@@ -25,12 +25,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
-  /* background: linear-gradient(to top, #05a2f6, #ffe725); */
-  background: linear-gradient(
-    to top,
-    rgba(5, 162, 246, 0.6),
-    rgba(255, 231, 37, 0.7)
-  );
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .nav-links {
@@ -50,12 +45,7 @@ body {
 .navbar > a {
   text-transform: uppercase;
   font-size: 26px;
-  border: 2px transparent solid;
-  border-radius: 22px;
   padding-bottom: 5px;
-}
-.navbar > a:hover {
-  border: 2px rgb(23, 111, 23) solid;
 }
 
 .navbar a:hover {
@@ -80,7 +70,7 @@ section {
   margin: 20px 0;
   margin-top: 50px;
   border-radius: 55px;
-  background-color: rgba(255, 231, 37, 0.4);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 /**********************************************STYLE***********************************************/
 h1 {
@@ -102,9 +92,9 @@ h2 {
 p {
   font-size: 20px;
   font-weight: 700;
-  text-align: justify;
-  text-indent: 2em;
-  text-shadow: 0 0 black;
+  /* text-align: justify; */
+  text-indent: 2em; /*wciecie*/
+  /* text-shadow: 0 0 black; */
   margin: 30px 0;
 }
 
@@ -148,7 +138,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background: rgba(155, 201, 206, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 50px;
 }
 
